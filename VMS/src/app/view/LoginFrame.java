@@ -15,14 +15,12 @@ public class LoginFrame extends JFrame {
     private LoginController loginController;
     private String role;
 
-    private String role_2;
-
     public LoginFrame(String role) {
         this.role = role;
         loginController = new LoginController();
 
         setTitle(role + " Login");
-        setSize(700, 500);
+        setSize(600, 400);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
 
